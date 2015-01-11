@@ -302,7 +302,7 @@
 
         this.__setListener()
 
-        // Set editor attributes, data short-hand API and listener
+        // Set editor attributes, data short-hand api and listener
         this.$editor.attr('id',(new Date).getTime())
         this.$editor.on('click', '[data-provider="bootstrap-markdown"]', $.proxy(this.__handle, this))
 
@@ -962,7 +962,7 @@
     return this
   }
 
-  /* MARKDOWN GLOBAL FUNCTION & DATA-API
+  /* MARKDOWN GLOBAL FUNCTION & DATA-api
   * ==================================== */
   var initMarkdown = function(el) {
     var $this = el

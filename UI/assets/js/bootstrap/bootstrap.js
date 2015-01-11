@@ -152,7 +152,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // ALERT DATA-API
+  // ALERT DATA-api
   // ==============
 
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
@@ -258,7 +258,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // BUTTON DATA-API
+  // BUTTON DATA-api
   // ===============
 
   $(document).on('click.bs.button.data-api', '[data-toggle^="button"]', function (e) {
@@ -464,7 +464,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // CAROUSEL DATA-API
+  // CAROUSEL DATA-api
   // =================
 
   $(document).on('click.bs.carousel.data-api', '[data-slide], [data-slide-to]', function (e) {
@@ -640,7 +640,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // COLLAPSE DATA-API
+  // COLLAPSE DATA-api
   // =================
 
   $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
@@ -1076,7 +1076,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // MODAL DATA-API
+  // MODAL DATA-api
   // ==============
 
   $(document).on('click.bs.modal.data-api', '[data-toggle="modal"]', function (e) {
@@ -1829,7 +1829,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // SCROLLSPY DATA-API
+  // SCROLLSPY DATA-api
   // ==================
 
   $(window).on('load.bs.scrollspy.data-api', function () {
@@ -1960,7 +1960,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // TAB DATA-API
+  // TAB DATA-api
   // ============
 
   $(document).on('click.bs.tab.data-api', '[data-toggle="tab"], [data-toggle="pill"]', function (e) {
@@ -2094,7 +2094,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
 
-  // AFFIX DATA-API
+  // AFFIX DATA-api
   // ==============
 
   $(window).on('load', function () {
