@@ -33,7 +33,7 @@ var factory = function( $, DataTable ) {
  * @class ColVis
  * @constructor
  * @param {object} DataTables settings object. With DataTables 1.10 this can
- *   also be and API instance, table node, jQuery collection or jQuery selector.
+ *   also be and api instance, table node, jQuery collection or jQuery selector.
  * @param {object} ColVis configuration options
  */
 var ColVis = function( oDTSettings, oInit )
@@ -604,7 +604,7 @@ ColVis.prototype = {
 				}
 
 				/* Need to consider the case where the initialiser created more than one table - change the
-				 * API index that DataTables is using
+				 * api index that DataTables is using
 				 */
 				var oldIndex = $.fn.dataTableExt.iApiIndex;
 				$.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex.call(that);

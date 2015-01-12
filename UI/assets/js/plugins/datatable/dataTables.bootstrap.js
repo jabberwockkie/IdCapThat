@@ -117,7 +117,7 @@ else {
 	// Integration for 1.9-
 	$.fn.dataTable.defaults.sPaginationType = 'bootstrap';
 
-	/* API method to get paging information */
+	/* api method to get paging information */
 	$.fn.dataTableExt.oApi.fnPagingInfo = function ( oSettings )
 	{
 		return {
